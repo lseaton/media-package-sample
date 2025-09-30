@@ -37,10 +37,10 @@ a {
 }
 
 .top-section {
-	padding: 20px 0 20px 0;
+	padding: 20px 0 0px 0;
 }
 .media-carousel {
-	padding: 20px 0 20px 0;
+	padding: 20px 0 0px 0;
 	display: flex;
 	position: relative;
 }
@@ -53,9 +53,9 @@ a {
 .media-carousel h2 {
 	color: white;
 	position: absolute;
-	bottom: 40px;
-	left: 40px;
-	right: 40px;
+	bottom: 5%;
+	left: 20px;
+	right: 50%;
 }
 
 .left-arrow,
@@ -73,11 +73,11 @@ a {
 .vid-types {
 	background-color: var(--red);
 	color: white;
-	padding: 20px;
+	padding: 40px 0 40px 0;
 }
 
 .examples {
-	padding: 20px 0 40px 0;
+	padding: 20px 0 20px 0;
 }
 
 .call-to-action {
@@ -85,7 +85,7 @@ a {
 }
 
 .social-plug {
-	padding: 20px 0 20px 0;
+	padding: 40px 0 40px 0;
 }
 .wrapper {
 	display: grid;
