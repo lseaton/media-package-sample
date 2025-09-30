@@ -5,6 +5,6 @@ window.onload = function () {
 		window.getComputedStyle(slides_parent).getProperty("transform") ==
 		"translateX(0)"
 	) {
-		console.log("0 spotted");
+		console.log("Zero spotted");
 	}
 };
