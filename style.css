@@ -1,7 +1,6 @@
 :root {
 	--blue: #104ae2;
-	--theme-red: #ba0c2f;
-	--dark-red: #931523;
+	--red: #931523;
 	--light-gray: #bcc2c9;
 	--dark-gray: #454c53;
 	--soft-black: #22272b;
@@ -19,6 +18,15 @@ body {
 	text-align: center;
 }
 
+body * {
+	margin: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
 #logo {
 	align-self: center;
 }
@@ -28,10 +36,46 @@ body {
 	font-style: italic;
 }
 
+.top-section {
+	padding: 20px 0 20px 0;
+}
+.media-carousel {
+	padding: 20px 0 20px 0;
+}
 .vid-types {
-	background-color: var(--dark-red);
+	background-color: var(--red);
 	color: white;
 	padding: 20px;
+}
+
+.examples {
+	padding: 20px 0 40px 0;
+}
+
+.call-to-action {
+	padding: 20px 0 20px 0;
+}
+
+.social-plug {
+	padding: 20px 0 20px 0;
+}
+.wrapper {
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr;
+	gap: 4%;
+	padding: 20px;
+}
+
+.example-pkg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.example-img {
+	width: 100%;
+	height: 100%;
+	border: 3px solid var(--soft-black);
 }
 
 .call-to-action {
@@ -41,12 +85,18 @@ body {
 
 h1 {
 	font-size: 5em;
+	margin-top: 14px;
+	margin-bottom: 14px;
 }
 h2 {
 	font-size: 3em;
+	margin-top: 14px;
+	margin-bottom: 14px;
 }
 h3 {
 	font-size: 2em;
+	margin-bottom: 14px;
+	margin-top: 14px;
 }
 
 .freefall-reel,
@@ -54,12 +104,14 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	margin: 40px;
 }
 
 .tdm-movie {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
+	margin: 40px;
 }
 
 #highlight-reel-vid,
