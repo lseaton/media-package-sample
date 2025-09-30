@@ -23,6 +23,22 @@ body {
 	align-self: center;
 }
 
+.emphasis {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.vid-types {
+	background-color: var(--dark-red);
+	color: white;
+	padding: 20px;
+}
+
+.call-to-action {
+	background-color: var(--navy);
+	color: white;
+}
+
 h1 {
 	font-size: 5em;
 }
@@ -44,17 +60,6 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-}
-
-.emphasis {
-	text-decoration: underline;
-	font-style: italic;
-}
-
-.examples {
-	background-color: var(--dark-red);
-	color: white;
-	padding: 20px;
 }
 
 #highlight-reel-vid,
