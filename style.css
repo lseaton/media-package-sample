@@ -5,3 +5,8 @@
 	--dark-gray: #454c53;
 	--red: #ba0c2f;
 }
+
+.emphasis {
+	text-decoration: underline;
+	font-style: italic;
+}
