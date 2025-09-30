@@ -1,12 +1,55 @@
 :root {
 	--blue: #104ae2;
-	--white: #fff;
+	--theme-red: #ba0c2f;
+	--dark-red: #931523;
 	--light-gray: #bcc2c9;
 	--dark-gray: #454c53;
-	--red: #ba0c2f;
+	--soft-black: #22272b;
+	--navy: #1e2f42;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	background: white;
+	color: var(--soft-black);
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+#logo {
+	align-self: center;
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+}
+h2 {
+	font-size: 3em;
 }
 
 .emphasis {
 	text-decoration: underline;
 	font-style: italic;
+}
+
+.examples {
+	background-color: var(--dark-red);
+	color: white;
+	padding: 20px;
+}
+
+#highlight-reel,
+#tdm-movie,
+#freefall-reel {
+	width: 803px;
+	height: 452px;
+	background-color: var(--light-gray);
+}
+
+.vid-label {
+	background-color: var(--navy);
+	padding: 5px;
 }
