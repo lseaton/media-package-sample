@@ -41,7 +41,35 @@ a {
 }
 .media-carousel {
 	padding: 20px 0 20px 0;
+	display: flex;
+	position: relative;
 }
+.media-carousel .background {
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 16 / 9;
+}
+
+.media-carousel h2 {
+	color: white;
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+	right: 40px;
+}
+
+.left-arrow,
+.right-arrow {
+	filter: invert(1);
+	position: absolute;
+	top: calc(50% - 25px);
+	left: 20px;
+}
+
+.right-arrow {
+	left: calc(100% - 70px);
+}
+
 .vid-types {
 	background-color: var(--red);
 	color: white;
@@ -63,7 +91,7 @@ a {
 	display: grid;
 	grid-template: 1fr 1fr / 1fr 1fr;
 	gap: 4%;
-	padding: 20px;
+	padding: 4%;
 }
 
 .example-pkg {
@@ -75,7 +103,7 @@ a {
 .example-img {
 	width: 100%;
 	height: 100%;
-	border: 3px solid var(--soft-black);
+	border: 3px solid var(--navy);
 }
 
 .call-to-action {
@@ -117,12 +145,13 @@ h3 {
 #highlight-reel-vid,
 #tdm-movie-vid,
 #freefall-reel-vid {
-	width: 803px;
-	height: 452px;
+	width: 70%;
+	aspect-ratio: 16 / 9;
 	background-color: var(--light-gray);
 }
 
 .vid-label {
 	background-color: var(--navy);
 	padding: 5px;
+	font-size: 1.2em;
 }
