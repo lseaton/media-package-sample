@@ -16,6 +16,7 @@ body {
 	background: white;
 	color: var(--soft-black);
 	font-family: "Lato", Helvetica, Arial, sans-serif;
+	text-align: center;
 }
 
 #logo {
@@ -24,10 +25,25 @@ body {
 
 h1 {
 	font-size: 5em;
-	text-align: center;
 }
 h2 {
 	font-size: 3em;
+}
+h3 {
+	font-size: 2em;
+}
+
+.freefall-reel,
+.highlight-reel {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.tdm-movie {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 
 .emphasis {
@@ -41,9 +57,9 @@ h2 {
 	padding: 20px;
 }
 
-#highlight-reel,
-#tdm-movie,
-#freefall-reel {
+#highlight-reel-vid,
+#tdm-movie-vid,
+#freefall-reel-vid {
 	width: 803px;
 	height: 452px;
 	background-color: var(--light-gray);
