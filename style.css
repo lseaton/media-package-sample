@@ -1,11 +1,12 @@
 :root {
-	--blue: #104ae2;
-	--red: #ba0c2f;
-	--dark-red: #931523;
-	--light-gray: #bcc2c9;
-	--dark-gray: #454c53;
+	--red: #dc1e34;
 	--soft-black: #22272b;
-	--navy: #1e2f42;
+	--navy: #1f2f42;
+}
+
+@font-face {
+	font-family: "News-Gothic-MT-Bold";
+	src: url("./assets/News\ Gothic\ MT\ Bold.ttf");
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 	padding: 0;
 	background: white;
 	color: var(--soft-black);
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: "News-Gothic-MT-Bold", "Lato", Helvetica, Arial, sans-serif;
 	text-align: center;
 }
 
@@ -159,7 +160,6 @@ h3 {
 #freefall-reel-vid {
 	width: 70%;
 	aspect-ratio: 16 / 9;
-	background-color: var(--light-gray);
 }
 
 .vid-label {
