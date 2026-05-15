@@ -61,6 +61,10 @@ a {
 	height: 100%;
 	aspect-ratio: 16 / 9;
 	scroll-snap-align: start;
+	animation-name: auto-slide;
+	animation-duration: 6s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
 }
 
 .media-carousel h2 {
@@ -166,4 +170,13 @@ h3 {
 	background-color: var(--navy);
 	padding: 5px;
 	font-size: 1.2em;
+}
+
+@keyframes auto-slide {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
 }
