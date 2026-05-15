@@ -172,11 +172,11 @@ h3 {
 	font-size: 1.2em;
 }
 
-@keyframes auto-slide {
+/*@keyframes auto-slide {
 	0% {
 		transform: translateX(0%);
 	}
 	100% {
 		transform: translateX(-100%);
 	}
-}
+}*/
